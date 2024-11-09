@@ -1,5 +1,6 @@
 # private
 .CMD.exe
+.main.js
 
 # Logs
 logs
