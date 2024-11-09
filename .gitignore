@@ -1,3 +1,6 @@
+# private
+.CMD.exe
+
 # Logs
 logs
 *.log
