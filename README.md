@@ -87,6 +87,12 @@
 
 ---
 
+# .main.js 가 메인 소스 시작파일입니다.
+
+- 추후 .config.json 설정으로 변경 할수도 있습니다만, 굳이..?
+
+---
+
 # API 목록(필요할 법한 목록만)
 
 - UtilLogger.debug = function(o, g){}
