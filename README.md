@@ -42,7 +42,7 @@
 
 # 4. 접속은 링크로 합니다.
 
-- http://thdtjsdn.com:49310/app_stream_video/html_page/viewer/index.html
+- https://thdtjsdn.com/app_stream_video/secure_page/viewer/index.html
 - 상단 Server Address 입력, Domain 또는 IP 입력 필수
 - 상단 Password에 .user.json에 지정한 pw 입력
 
