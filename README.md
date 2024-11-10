@@ -43,7 +43,7 @@
 # 4. 접속은 링크로 합니다.
 
 - 본인 서버가 HTTP로 구동 되있을 경우
-	- http://thdtjsdn.com:49310/app_stream_video/html_page.local/viewer/index.html
+	- http://thdtjsdn.com:49310/app_stream_video/html_page/viewer/index.html
 
 - 본인 서버 localhost 테스트용 https 서비스
 	- https://thdtjsdn.com/app_stream_video/secure_page/viewer/index.html
