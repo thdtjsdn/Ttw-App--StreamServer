@@ -46,7 +46,7 @@
 	- http://thdtjsdn.com:49310/app_stream_video/html_page/viewer/index.html
 
 - 본인 서버 localhost 테스트용 https 서비스
-	- https://thdtjsdn.com/app_stream_video/secure_page/viewer/index.html
+	- https://thdtjsdn.com/app_stream_video/html_page/viewer/index.html
 - 상단 Server Address 입력, Domain 또는 IP 입력 필수
 - 상단 Password에 .user.json에 지정한 pw 입력
 
