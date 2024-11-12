@@ -2,7 +2,8 @@
 // config
 
 // Windows
-global.SERVER.PATH_ROOT = 'D:/Videos/';
+//global.SERVER.PATH_ROOT = 'D:/Videos/';
+global.SERVER.PATH_ROOT = 'D:/GitHub_Ttw--TS/Ttw-PKG--Application--StreamServer-----Video/';
 
 // Linux & Mac
 //global.SERVER.PATH_ROOT = '/Videos/';
@@ -48,10 +49,10 @@ SERVER.addRouter('/', function(req, res, owner){
 
 //----------------------------------------------------------------------------------------------------;
 
+// for development
 // 해당 폴더의 소스가 수정되면 서버 재기동 없이 소스 다시 실행
 // If the source of the folder is modified, re-run the source without restarting the server.
 (function(){
-	var path;
-	path = 'js-router/'; global.RJSR(path + '.main.js'); UtilFSWatch.watch(path, { recursive: true }, function(e, fnm){ if(fnm){ global.RJSR(path + '.main.js'); } });
-	path = 'js-source/'; global.RJSR(path + '.main.js'); UtilFSWatch.watch(path, { recursive: true }, function(e, fnm){ if(fnm){ global.RJSR(path + '.main.js'); } });
+	var path0 = 'js-router/'; global.RJSR(path0 + '.main.js'); UtilFSWatch.watch(path0, { recursive: true }, function(e, fnm){ if(fnm){ global.RJSR(path0 + '.main.js'); } });
+	var path1 = 'js-source/'; global.RJSR(path1 + '.main.js'); UtilFSWatch.watch(path1, { recursive: true }, function(e, fnm){ if(fnm){ global.RJSR(path1 + '.main.js'); } });
 })();
