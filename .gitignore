@@ -1,6 +1,7 @@
-# private
-.CMD.exe
-.main.js
+.ssl/cha.pem
+.ssl/crt.pem
+.ssl/key.pem
+.ssl/ssl.pfx
 
 # Logs
 logs
